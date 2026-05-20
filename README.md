@@ -30,7 +30,7 @@ Một ứng dụng Desktop trực quan được viết bằng Python và PyQt6, 
 
 ## 🛠 Yêu cầu hệ thống
 
-Đảm bảo bạn đã cài đặt **Python 3.8+**. Cài đặt các thư viện phụ thuộc (dependencies) bằng lệnh sau:
+Đảm bảo đã cài đặt **Python 3.8+**. Cài đặt các thư viện phụ thuộc (dependencies) bằng lệnh sau:
 
 ```bash
 pip install PyQt6 matplotlib numpy pandas
@@ -39,14 +39,10 @@ pip install PyQt6 matplotlib numpy pandas
 
 ## Hướng dẫn sử dụng
 
-1. **Clone repository** hoặc tải bộ source code này về máy của bạn.
-2. **Mở terminal/command prompt** tại thư mục chứa source code.
-3. **Khởi chạy ứng dụng** bằng lệnh:
+1. Tải thư mục chứa bộ source code.
+2. Mở file thư mục bằng Pycharm hoặc các IDE khác
+3. Vào file main.py ấn chạy
 
-```bash
-python main.py
-
-```
 
 4. **Tương tác với ứng dụng:**
 * Sử dụng các thanh công cụ để chọn **Loại đồ thị** hoặc điều chỉnh **Seed**.
@@ -55,18 +51,12 @@ python main.py
 
 
 ## Hình ảnh minh họa
+<img width="1916" height="1140" alt="image" src="https://github.com/user-attachments/assets/5f767fb6-a143-4767-8463-c05b74ed081f" />
+<img width="1919" height="1134" alt="image" src="https://github.com/user-attachments/assets/aa0ef991-b9cb-46ce-b638-6ca81946372b" />
 
-*(Bạn có thể thay thế hình ảnh `image_f5b20d.png` mà bạn tải lên vào thư mục dự án và chèn đường dẫn vào đây để làm tài liệu sinh động hơn).*
 
-```markdown
-![Giao diện chính của ứng dụng](đường_dẫn_tới_ảnh/image_f5b20d.png)
-
-```
 
 ## Đóng góp (Contributing)
 
 Mọi đóng góp nhằm cải thiện hiệu năng thuật toán, bổ sung các heuristic mới (như A*, Simulated Annealing, Genetic Algorithm) để so sánh với GBFS đều được chào đón. Vui lòng tạo Pull Request hoặc mở Issue để thảo luận.
 
----
-
-*Hy vọng bản README này giúp dự án của bạn trở nên chuyên nghiệp và dễ tiếp cận hơn. Nếu bạn cần điều chỉnh thêm bất kỳ phần nào cho phù hợp với ý định cá nhân, hãy cho tôi biết nhé!*
