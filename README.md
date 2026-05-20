@@ -28,26 +28,19 @@ Hỗ trợ sinh tự động các cấu trúc đồ thị thực tế với cơ 
 
 * **Giao diện thân thiện:** Cho phép người dùng tùy chỉnh Seed, tỷ lệ cắt cạnh (Sparsity) và tương tác trực tiếp qua các Tab thống kê.
 
-## Cấu trúc thư mục
+### 4. **Tương tác với ứng dụng:**
+* Sử dụng các thanh công cụ để chọn **Loại đồ thị** hoặc điều chỉnh **Seed**.
+* Chuyển đổi qua lại giữa các Tab Kịch bản để chạy thử nghiệm và xem biểu đồ phân tích thời gian thực.
 
-* `main.py`: File khởi chạy chính của ứng dụng. Thiết lập vòng lặp sự kiện (event loop) của PyQt6.
-* `gui.py`: Chứa toàn bộ logic giao diện người dùng. Xây dựng các Widget, Tab điều khiển, và biểu đồ Matplotlib (`GraphWidget`).
-* `algorithms.py`: Trái tim của dự án, bao gồm:
-* `GraphGenerator`: Sinh dữ liệu đồ thị ngẫu nhiên.
-* `GreedySolver`: Triển khai thuật toán tìm đường tham lam.
-* `GBFSAnalyzer` & `MetricsEvaluator`: Phân tích hiệu suất và chạy các kịch bản test.
+Các tham số cấu hình Cuckoo Search hỗ trợ
+| Tham số | Ý nghĩa |
+| --- | --- |
+| **Population Size** | Số lượng chim cúc cu (kích thước quần thể lời giải). |
+| **Max Generations** | Số thế hệ tối đa thuật toán sẽ tiến hóa để tìm đường đi tốt hơn. |
+| **Probability ($p_a$)** | Xác suất phát hiện và hủy bỏ trứng của chim chủ nhà (thay thế lời giải xấu). |
 
-
-* `models.py`: Định nghĩa các cấu trúc dữ liệu cơ bản như `City` (Thành phố), `Route` (Lộ trình), và `RouteMetrics` (Đo lường).
-
-## 🛠 Yêu cầu hệ thống
-
-Đảm bảo đã cài đặt **Python 3.8+**. Cài đặt các thư viện phụ thuộc (dependencies) bằng lệnh sau:
-
-```bash
-pip install PyQt6 matplotlib numpy pandas
-
-```
+<img width="1916" height="1140" alt="image" src="https://github.com/user-attachments/assets/5f767fb6-a143-4767-8463-c05b74ed081f" />
+<img width="1919" height="1134" alt="image" src="https://github.com/user-attachments/assets/aa0ef991-b9cb-46ce-b638-6ca81946372b" />
 
 ## Hướng dẫn sử dụng
 
@@ -58,7 +51,7 @@ pip install PyQt6 matplotlib numpy pandas
 
 ---
 
-## 📁 Cấu trúc mã nguồn
+## Cấu trúc mã nguồn
 
 * `main.py`: File thực thi chính của ứng dụng, khởi tạo vòng lặp sự kiện `QApplication`.
 * `gui.py`: Định nghĩa giao diện người dùng (UI) bằng PyQt6, tích hợp canvas của Matplotlib và các luồng xử lý sự kiện tương tác, cập nhật hoạt ảnh.
@@ -83,22 +76,6 @@ pip install PyQt6 matplotlib numpy pandas openpyxl
 ```
 
 > **Lưu ý:** Thư viện `openpyxl` là bắt buộc để hỗ trợ tính năng xuất báo cáo ra file Excel.
-
-4. **Tương tác với ứng dụng:**
-* Sử dụng các thanh công cụ để chọn **Loại đồ thị** hoặc điều chỉnh **Seed**.
-* Chuyển đổi qua lại giữa các Tab Kịch bản để chạy thử nghiệm và xem biểu đồ phân tích thời gian thực.
-
-## 📊 Các tham số cấu hình Cuckoo Search hỗ trợ
-
-| Tham số | Ý nghĩa |
-| --- | --- |
-| **Population Size** | Số lượng chim cúc cu (kích thước quần thể lời giải). |
-| **Max Generations** | Số thế hệ tối đa thuật toán sẽ tiến hóa để tìm đường đi tốt hơn. |
-| **Probability ($p_a$)** | Xác suất phát hiện và hủy bỏ trứng của chim chủ nhà (thay thế lời giải xấu). |
-
-## Hình ảnh minh họa
-<img width="1916" height="1140" alt="image" src="https://github.com/user-attachments/assets/5f767fb6-a143-4767-8463-c05b74ed081f" />
-<img width="1919" height="1134" alt="image" src="https://github.com/user-attachments/assets/aa0ef991-b9cb-46ce-b638-6ca81946372b" />
 
 
 
