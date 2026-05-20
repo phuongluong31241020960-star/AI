@@ -66,7 +66,7 @@ Các tham số cấu hình Cuckoo Search hỗ trợ
 
 ---
 
-## 🛠 Yêu cầu hệ thống & Cài đặt
+## Yêu cầu hệ thống & Cài đặt
 
 Ứng dụng yêu cầu **Python 3.8+**. Để cài đặt tất cả các thư viện cần thiết, bạn chạy lệnh sau trong terminal:
 
