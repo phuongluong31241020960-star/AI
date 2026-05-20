@@ -1,9 +1,4 @@
 # AI
-Chào bạn, dựa trên các file mã nguồn bạn đã cung cấp (`main.py`, `gui.py`, `algorithms.py`, `models.py`), đây là một ứng dụng giao diện trực quan (GUI) được xây dựng bằng PyQt6 để mô phỏng, giải quyết và phân tích bài toán tìm đường (như TSP) sử dụng thuật toán Tìm kiếm tham lam tốt nhất đầu tiên (Greedy Best-First Search - GBFS).
-
-Dưới đây là bản nháp README chi tiết, chuyên nghiệp và sẵn sàng để bạn sử dụng cho dự án trên GitHub hoặc GitLab.
-
----
 
 # GBFS Routing Analyzer & Visualizer
 
