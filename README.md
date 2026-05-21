@@ -44,10 +44,20 @@ Các tham số cấu hình Cuckoo Search hỗ trợ
 
 ## Hướng dẫn sử dụng
 
-1. Tải thư mục chứa bộ source code.
-2. Mở file thư mục bằng Pycharm hoặc các IDE khác
+1. Tải toàn bộ file code py và bỏ vào 1 thư mục.
+2. Dùng Pycharm (hoặc các IDE khác) mở file thư mục
 3. Vào file main.py ấn chạy
 
+## Yêu cầu hệ thống & Cài đặt
+
+Ứng dụng yêu cầu **Python 3.8+**. Để cài đặt tất cả các thư viện cần thiết, bạn chạy lệnh sau trong terminal:
+
+```bash
+pip install PyQt6 matplotlib numpy pandas openpyxl
+
+```
+
+> **Lưu ý:** Thư viện `openpyxl` là bắt buộc để hỗ trợ tính năng xuất báo cáo ra file Excel.
 
 ---
 
@@ -66,22 +76,11 @@ Các tham số cấu hình Cuckoo Search hỗ trợ
 
 ---
 
-## Yêu cầu hệ thống & Cài đặt
-
-Ứng dụng yêu cầu **Python 3.8+**. Để cài đặt tất cả các thư viện cần thiết, bạn chạy lệnh sau trong terminal:
-
-```bash
-pip install PyQt6 matplotlib numpy pandas openpyxl
-
-```
-
-> **Lưu ý:** Thư viện `openpyxl` là bắt buộc để hỗ trợ tính năng xuất báo cáo ra file Excel.
-
-
-
 ## Đóng góp (Contributing)
 
 Mọi đóng góp nhằm cải thiện hiệu năng thuật toán, bổ sung các heuristic mới (như A*, Simulated Annealing, Genetic Algorithm) để so sánh với GBFS đều được chào đón. Vui lòng tạo Pull Request hoặc mở Issue để thảo luận.
+
+---
 
 ## Credit
 | NHÓM | 12 |
