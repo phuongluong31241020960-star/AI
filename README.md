@@ -89,4 +89,3 @@ Mọi đóng góp nhằm cải thiện hiệu năng thuật toán, bổ sung cá
 | MÔN HỌC | TRÍ TUỆ NHÂN TẠO |
 | HỌC PHẦN | 26D1INF50904201 |
 | ĐỀ TÀI | GIẢI BÀI TOÁN TSP |
-| Tham số | Ý nghĩa |
