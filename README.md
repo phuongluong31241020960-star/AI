@@ -84,6 +84,7 @@ pip install PyQt6 matplotlib numpy pandas openpyxl
 Mọi đóng góp nhằm cải thiện hiệu năng thuật toán, bổ sung các heuristic mới (như A*, Simulated Annealing, Genetic Algorithm) để so sánh với GBFS đều được chào đón. Vui lòng tạo Pull Request hoặc mở Issue để thảo luận.
 
 ### Credit
+| NHÓM | 12 |
 | --- | --- |
 | NHÓM | 12 |
 | MÔN HỌC | TRÍ TUỆ NHÂN TẠO |
@@ -91,6 +92,8 @@ Mọi đóng góp nhằm cải thiện hiệu năng thuật toán, bổ sung cá
 | ĐỀ TÀI | GIẢI BÀI TOÁN TSP |
 | Tham số | Ý nghĩa |
 
+| Tham số | Ý nghĩa |
+| --- | --- |
 | **Population Size** | Số lượng chim cúc cu (kích thước quần thể lời giải). |
 | **Max Generations** | Số thế hệ tối đa thuật toán sẽ tiến hóa để tìm đường đi tốt hơn. |
 | **Probability ($p_a$)** | Xác suất phát hiện và hủy bỏ trứng của chim chủ nhà (thay thế lời giải xấu). |
