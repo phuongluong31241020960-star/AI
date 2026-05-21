@@ -1,3 +1,14 @@
+## Credit
+| NHÓM | 12 |
+| --- | --- |
+| MÔN HỌC | TRÍ TUỆ NHÂN TẠO |
+| HỌC PHẦN | 26D1INF50904201 |
+| ĐỀ TÀI | GIẢI BÀI TOÁN TSP |
+| MSSV | 31241020960 |
+| | 31241023829 |
+| | 31241023829 |
+
+---
 # Routing Analyzer & Visualizer: GBFS vs. Cuckoo Search
 
 Một ứng dụng Desktop trực quan và mạnh mẽ được xây dựng bằng Python và PyQt6, phục vụ việc mô phỏng, giải quyết và phân tích so sánh bài toán tìm đường (Routing Problem) giữa thuật toán cơ bản Greedy Best-First Search (GBFS) và thuật toán tối ưu hóa thông minh Cuckoo Search (CS).
@@ -80,11 +91,4 @@ pip install PyQt6 matplotlib numpy pandas openpyxl
 
 Mọi đóng góp nhằm cải thiện hiệu năng thuật toán, bổ sung các heuristic mới (như A*, Simulated Annealing, Genetic Algorithm) để so sánh với GBFS đều được chào đón. Vui lòng tạo Pull Request hoặc mở Issue để thảo luận.
 
----
 
-## Credit
-| NHÓM | 12 |
-| --- | --- |
-| MÔN HỌC | TRÍ TUỆ NHÂN TẠO |
-| HỌC PHẦN | 26D1INF50904201 |
-| ĐỀ TÀI | GIẢI BÀI TOÁN TSP |
