@@ -4,11 +4,7 @@
 | MÔN HỌC | TRÍ TUỆ NHÂN TẠO |
 | HỌC PHẦN | 26D1INF50904201 |
 | ĐỀ TÀI | GIẢI BÀI TOÁN TSP |
-| MSSV |
-| 31241020960 |
-| 31241023829 |
-| 31241024570 |
-| 31241024100 |
+| MSSV | 31241020960<br>31241023829<br>31241024570<br>31241024100 |
 
 ---
 # Routing Analyzer & Visualizer: GBFS vs. Cuckoo Search
