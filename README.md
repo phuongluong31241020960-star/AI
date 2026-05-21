@@ -5,8 +5,9 @@
 | HỌC PHẦN | 26D1INF50904201 |
 | ĐỀ TÀI | GIẢI BÀI TOÁN TSP |
 | MSSV | 31241020960 |
-| | 31241023829 |
-| | 31241023829 |
+| 31241023829 |
+| 31241024570 |
+| 31241024100 |
 
 ---
 # Routing Analyzer & Visualizer: GBFS vs. Cuckoo Search
