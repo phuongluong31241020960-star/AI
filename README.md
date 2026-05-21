@@ -86,15 +86,7 @@ Mọi đóng góp nhằm cải thiện hiệu năng thuật toán, bổ sung cá
 ### Credit
 | NHÓM | 12 |
 | --- | --- |
-| NHÓM | 12 |
 | MÔN HỌC | TRÍ TUỆ NHÂN TẠO |
 | HỌC PHẦN | 26D1INF50904201 |
 | ĐỀ TÀI | GIẢI BÀI TOÁN TSP |
 | Tham số | Ý nghĩa |
-
-| Tham số | Ý nghĩa |
-| --- | --- |
-| **Population Size** | Số lượng chim cúc cu (kích thước quần thể lời giải). |
-| **Max Generations** | Số thế hệ tối đa thuật toán sẽ tiến hóa để tìm đường đi tốt hơn. |
-| **Probability ($p_a$)** | Xác suất phát hiện và hủy bỏ trứng của chim chủ nhà (thay thế lời giải xấu). |
-
