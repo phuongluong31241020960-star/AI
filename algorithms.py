@@ -169,18 +169,10 @@ class CuckooOptimizer:
         self.initialize_population()
 
     def initialize_population(self, warm_start_route: Route = None):
-        if warm_start_route is not None and warm_start_route.is_feasible:
-            self.population.append(warm_start_route)
-            for _ in range(1, self.pop_size):
-                mutated_list = list(warm_start_route.route)
-                idx1, idx2 = random.sample(range(len(mutated_list)), 2)
-                mutated_list[idx1], mutated_list[idx2] = mutated_list[idx2], mutated_list[idx1]
-                self.population.append(Route(mutated_list, self.adj_matrix))
-        else:
-            for _ in range(self.pop_size):
-                random_list = list(self.cities)
-                random.shuffle(random_list)
-                self.population.append(Route(random_list, self.adj_matrix))
+        for _ in range(self.pop_size):
+            random_list = list(self.cities)
+            random.shuffle(random_list)
+            self.population.append(Route(random_list, self.adj_matrix))
 
         self.best_route = min(self.population, key=lambda x: x.fitness)
         self.history.append(self.best_route.fitness)
