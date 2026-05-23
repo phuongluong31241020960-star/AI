@@ -155,6 +155,7 @@ class GreedySolver:
         return Route(path, adj_matrix)
 
 class CuckooOptimizer:
+    "class CuckooOptimizer:
     def __init__(self, cities: List[City], adj_matrix: np.ndarray, pop_size: int = 20, max_gen: int = 100, pa: float = 0.25, warm_start_route: Route = None):
         self.cities = cities
         self.adj_matrix = adj_matrix
@@ -166,8 +167,7 @@ class CuckooOptimizer:
         self.convergence_generation = 0
         self.history = [] 
         self.route_history = []
-
-        self.initialize_population(warm_start_route)
+        self.initialize_population()
 
     def initialize_population(self, warm_start_route: Route = None):
         if warm_start_route is not None and warm_start_route.is_feasible:
@@ -185,7 +185,25 @@ class CuckooOptimizer:
 
         self.best_route = min(self.population, key=lambda x: x.fitness)
         self.history.append(self.best_route.fitness)
-        self.route_history.append(self.best_route)
+        self.route_history.append(self.best_route)"
+
+    def initialize_population(self, warm_start_route: Route = None):
+        if warm_start_route is not None and warm_start_route.is_feasible:
+            self.population.append(warm_start_route)
+            for _ in range(1, self.pop_size):
+                mutated_list = list(warm_start_route.route)
+                idx1, idx2 = random.sample(range(len(mutated_list)), 2)
+                mutated_list[idx1], mutated_list[idx2] = mutated_list[idx2], mutated_list[idx1]
+                self.population.append(Route(mutated_list, self.adj_matrix))
+        else:
+            for _ in range(self.pop_size):
+                random_list = list(self.cities)
+                random.shuffle(random_list)
+                self.population.append(Route(random_list, self.adj_matrix))
+
+        self.best_route = min(self.population, key=lambda x: x.fitness)
+        self.history.append(self.best_route.fitness)
+        self.route_history.append(self.best_route)"
 
     def discrete_levy_flight(self, current_route: Route) -> Route:
         beta = 1.5
