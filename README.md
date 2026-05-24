@@ -87,6 +87,6 @@ pip install PyQt6 matplotlib numpy pandas openpyxl
 
 ## Đóng góp (Contributing)
 
-Mọi đóng góp nhằm cải thiện hiệu năng thuật toán, bổ sung các heuristic mới (như A*, Simulated Annealing, Genetic Algorithm) để so sánh với GBFS đều được chào đón. Vui lòng tạo Pull Request hoặc mở Issue để thảo luận.
+Mọi đóng góp nhằm cải thiện hiệu năng thuật toán, bổ sung các heuristic mới (như A*, Simulated Annealing, Genetic Algorithm) để so sánh với GBFS đều được chào đón. Xin Vui lòng tạo Pull Request hoặc mở Issue để thảo luận.
 
 
