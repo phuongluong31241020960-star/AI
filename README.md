@@ -17,7 +17,7 @@ Một ứng dụng Desktop trực quan và mạnh mẽ được xây dựng bằ
 ### 1. Thuật toán giải toán đa dạng
 
 * **Greedy Best-First Search (GBFS):** Thuật toán tìm kiếm tham lam dựa trên khoảng cách ngắn nhất để xây dựng lộ trình ban đầu một cách nhanh chóng.
-* **Cuckoo Search Optimizer:** Thuật toán tối ưu hóa lấy cảm hứng từ tập tính đẻ trứng nhờ của loài chim cúc cu. Sử dụng cơ chế bước nhảy Lévy (Lévy flights) để tối ưu hóa và cải thiện chất lượng lộ trình từ GBFS, giúp tránh bẫy tối ưu cục bộ.
+* **Cuckoo Search Optimizer:** Thuật toán tối ưu hóa lấy cảm hứng từ tập tính đẻ trứng nhờ của loài chim cúc cu. Sử dụng cơ chế bước nhảy Lévy để tối ưu hóa và cải thiện chất lượng lộ trình từ GBFS, giúp tránh bẫy tối ưu cục bộ.
 
 ### 2. Mô phỏng đồ thị đa dạng (Graph Generator)
 Hỗ trợ sinh tự động các cấu trúc đồ thị thực tế với cơ chế cắt cạnh (Sparsity) tùy chỉnh:
