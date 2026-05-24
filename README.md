@@ -1,5 +1,5 @@
 ## Credit
-| NHÓM | 12 |
+| NHÓM | 9 |
 | --- | --- |
 | MÔN HỌC | TRÍ TUỆ NHÂN TẠO |
 | HỌC PHẦN | 26D1INF50904201 |
