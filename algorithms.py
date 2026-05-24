@@ -168,7 +168,7 @@ class CuckooOptimizer:
         self.route_history = []
         self.initialize_population()
 
-    def initialize_population(self, warm_start_route: Route = None):
+    def initialize_population(self):
         for _ in range(self.pop_size):
             random_list = list(self.cities)
             random.shuffle(random_list)
